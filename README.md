@@ -3,7 +3,8 @@ Welcome to my personal archive! This repository contains my daily practice code,
 ## 📁 Repository Structure
 * **`cplusplus-practice/`** - Core programming, logic building, and OOP concepts in C++.
 * **`python-basics/`** - Python fundamentals, data structures, and practice scripts.
-
+* **`java-practice/`** - Java basics, Object-Oriented Programming (OOP), and JDBC database connectivity.
+* **`sql-practice/`** - Database design, complex queries, joins, and MS SQL Server experiments.
 ---
 **Maintained by:** Babar Khan (BS Data Science Student, UOG)
 
