@@ -6,3 +6,6 @@ Welcome to my personal archive! This repository contains my daily practice code,
 
 ---
 **Maintained by:** Babar Khan (BS Data Science Student, UOG)
+
+### 📬 Connect with me:
+- **LinkedIn:** [Babar Khan](https://www.linkedin.com/in/babar-khan-tech-pk/)
