@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="listContainer">
+        <h1 class="title">To Do List</h1>
+        <div class="container">
+            <h3 class="heading">Enter Your Task To Add:</h3>
+            <input type="text" id="takeTask">
+            <button class="addTask">Add Task</button>
+            <a id="viewTask" href="#taskList">View Your List</a>
+        </div>
+    </main>
+    <section id="taskList">
+        <h1 class="title">Your Saved Tasks!</h1>
+        <ol id="orList"></ol>
+        <div class="showTask">
+            <button id="box"></button>
+            <p id="number"></p>
+            <p id="task"></p>
+            <a id="editButton" href="#listContainer">Edit</a>
+        </div>
+        <a href="#listContainer" class="addTask2">Add Task</a>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
