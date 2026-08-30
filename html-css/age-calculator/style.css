@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1E3D3;
+}
+.calculater{
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    border: 2px solid #690B22;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFCF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+#inPut{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.ageCalculater{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #F1E3D3;
+    color: #690B22;
+    border-radius: 5px;
+    border:none;
+}
+.ageCalculater:hover{
+    background-color: #690B22;
+    color: #F1E3D3;
+}
+p{
+    margin: 5px;
+    font-size: 22px;
+    color: #1B4D3E;
+}
