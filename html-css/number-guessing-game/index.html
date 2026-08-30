@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <h3>Number Guess Game</h3>
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#level-1">Easy</a></li>
+            <li><a href="#level-2">Medium</a></li>
+            <li><a href="#level-3">Hard</a></li>
+        </ol>
+    </nav>
+    <!-- HOME PAGE OF GAME -->
+    <main id="home">
+        <div class="welcome-class">
+            <h1 id="welcome">Welcome!</h1>
+            <h3 id="welcome-msg">Select The Mode You Want To Play.</h3>
+        </div>
+        <div id="content">
+            <a href="#level-1">Easy</a>
+            <a href="#level-2">Medium</a>
+            <a href="#level-3">Hard</a>
+        </div>
+    </main>
+    <!-- LEVEL 1 OF GAME -->
+     <section id="level-1">
+        <h1 id="title">Easy Mode</h1>
+        <div id="container">
+            <h3 id="heading">Guess A Number (1-10)</h3>
+            <input type="number" id="user-input-l1" min="1" max="10" required>
+            <button id="check-btn-l1">Guess Now</button>
+            <p id="result-l1">Enter A Num.</p> 
+        </div>
+        <button id="reset-btn-l1">Reset</button>
+     </section>
+    <!-- LEVEL 2 OF GAME -->
+     <section id="level-2">
+        <h1 id="title">Medium Mode</h1>
+        <div id="container">
+            <h3 id="heading">Guess A Number (1-50)</h3>
+            <input type="number" id="user-input-l2" min="1" max="50" required>
+            <button id="check-btn-l2">Guess Now</button>
+            <p id="result-l2">Enter A Num.</p> 
+        </div>
+        <button id="reset-btn-l2">Reset</button>
+     </section>
+    <!-- LEVEL 3 OF GAME -->
+     <section id="level-3">
+        <h1 id="title">Hard Mode</h1>
+        <div id="container">
+            <h3 id="heading">Guess A Number (1-100)</h3>
+            <input type="number" id="user-input-l3" min="1" max="100" required>
+            <button id="check-btn-l3">Guess Now</button>
+            <p id="result-l3">Enter A Num.</p> 
+        </div>
+        <button id="reset-btn-l3">Reset</button>
+     </section>
+    <!-- ACCESSING SCRIPT.JS FILE -->
+    <script src="script.js"></script>
+</body>
+</html>
